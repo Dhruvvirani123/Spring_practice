@@ -25,8 +25,8 @@
 		</property>
 		<property name="course">
 			<map>
-				<entry key="Java" value="2 Month" />
-				<entry key="C++" value="1 Month" /><!-- Duplicate Value not allow -->
+				<entry key="Java" value=" 2 Month" />
+				<entry key="C++" value=" 1 Month" /><!-- Duplicate Value not allow -->
 			</map>
 		</property>
 	</bean>
