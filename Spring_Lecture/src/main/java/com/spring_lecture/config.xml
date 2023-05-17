@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+	<!-- This is our beans -->
+	<bean class="com.spring_lecture.Student" name="s1">
+		<property name="id">
+			<value>200782</value>
+		</property>
+		<property name="name">
+			<value>Dhruv</value>
+		</property>
+		<property name="address">
+			<value>Amreli</value>
+		</property>
+	</bean>
+
+
+	<bean class="com.spring_lecture.Student" name="s2">
+		<property name="id" value="200200" />
+		<property name="name" value="DK" />
+		<property name="address" value="Bhavnagar" />
+	</bean>
+	
+	
+	<!-- Using P schema and set Property -->
+	<bean class="com.spring_lecture.Student" name="s3" p:id="200957" p:name="Rushit" p:address="Botad">
+	</bean>
+	
+		
+</beans>
